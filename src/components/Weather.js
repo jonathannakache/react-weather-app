@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Axios from "axios";
 
 const API_KEY = "dce781b2f988c11ca536248397a31ff2";
-const API_URL = "http://api.openweathermap.org/data/2.5/weather?q=";
+const API_URL = "https://api.openweathermap.org/data/2.5/weather?q=";
 
 const icons = {
   Mist: "wi wi-windy",
