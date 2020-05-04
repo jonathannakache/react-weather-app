@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+html {
+  height: 100vh;
+}
+body {
+  height: 100%;
+  background: url(./img/winter-landscape-636634_1920.jpg) no-repeat center
+    center fixed;
+}
+.titre {
+  padding-top: 1rem;
+}
+
+.search-bar input {
+  background-color: transparent;
+  box-shadow: none !important;
+  border-bottom: 2px solid tomato !important;
+  border-radius: 0;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  padding: 1rem;
+  font-weight: bold !important;
+  text-align: center;
+}
+.search-bar input:focus {
+  outline: none;
+}
+.search-bar input::placeholder {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold !important;
+  text-align: center;
+  font-weight: bold;
+}
+h2,
+h3,
+h1 {
+  color: white !important;
+}
+/* BACKGROUNDS */
+
+.mist {
+  background: url(./img/fog-1535201_1920.jpg) no-repeat center center fixed;
+}
+.thunderstorm {
+  background: url(./img/winter-landscape-636634_1920.jpg) no-repeat center
+    center fixed;
+}
+.drizzle {
+  background: url(./img/rain-2092122_1920.jpg) no-repeat center center fixed;
+}
+.rain {
+  background: url(./img/rain-2092122_1920.jpg) no-repeat center center fixed;
+}
+.snow {
+  background: url(./img/snow-4668099_1920.jpg) no-repeat center center fixed;
+}
+.atmosphere {
+  background: url(./img/snow-4668099_1920.jpg) no-repeat center center fixed;
+}
+.clear {
+  background: url(./img/waves-1867285_1920.jpg) no-repeat center center fixed;
+}
+.clouds {
+  background: url(./img/cloudy-1854241_1920.jpg) no-repeat center center fixed;
+}
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+}
+#wi {
+  font-size: 9rem;
+  color: white;
+  margin: 1rem auto;
+}
