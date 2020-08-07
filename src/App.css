@@ -14,17 +14,19 @@ body {
 }
 
 .search-bar input {
-  background-color: transparent;
-  box-shadow: none !important;
-  border-bottom: 2px solid tomato !important;
-  border-radius: 0;
-  color: white;
-  font-size: 2rem;
-  border: none;
-  padding: 1rem;
-  font-weight: bold !important;
-  text-align: center;
-}
+    width: 90%;
+    background-color: transparent;
+    box-shadow: none !important;
+    border-bottom: 2px solid tomato !important;
+    border-radius: 0;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    text-shadow: 1px 1.4px 1px black;
+    padding: 1rem;
+    font-weight: bold !important;
+    text-align: center;
+  
 .search-bar input:focus {
   outline: none;
 }
